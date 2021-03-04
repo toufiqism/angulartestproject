@@ -13,6 +13,6 @@ for i in range(0, 7):
         break
 
 if intx == randint:
-    print('You have guessed correctly in', i+1, 'tries')
+    print('Congratulations, You have guessed correctly in', i+1, 'tries')
 else:
     print('Nope, my number was ', randint)
