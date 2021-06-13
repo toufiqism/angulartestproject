@@ -55,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.notify_me).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 startService(new Intent(MainActivity.this, ChatHeadService.class));
                 finish();
             }
@@ -63,7 +62,6 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.notify_me_2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 initPermission();
             }
         });
